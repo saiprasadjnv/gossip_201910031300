@@ -1,15 +1,20 @@
 READ ME 
 
 1.	Team Members: 
-1. Shiridi Sai Prasad
+a. Shiridi Sai Prasad
     UFID - 8073-3499
      Mail: shiridisaiprasad@ufl.edu
 
-2. Aditya Bharadwaj
+b. Aditya Bharadwaj
     UFID: 9890-1939
     Mail: aditya.bharadwaj@ufl.edu 
 
-2.	What is working: 
+2. Language Used: Elixir 
+
+3. About the project: 
+    This project simulates the message based group communication protocols, namely Gossip Protocol and  Push-sum Protocol. It demonstrates the resilience of group communication protocls compared to Master based protocols. These protocols are used in decentralized distributed systems, where the communication among the nodes of the distributed system are not centrally controlled. As a result, there are no single point failures. The load is distributed equally among all the participating nodes and the communication is faster. The nodes in the distributed system can be configured in several topologies based on the neighborship among the nodes. In this project, we compare the performance of different topologies. We simulate single point failure scenarios and demonstrate the resilience of the system.  
+    
+4.	What is working: 
   i.	Gossip Algorithm: 
       a.	Full Network  Topology – Can achieve full convergence until 2000 nodes. 
       b.	Line Topology - Can achieve full convergence until 2000 nodes. 
